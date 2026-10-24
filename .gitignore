@@ -1,0 +1,33 @@
+.env
+*.pyc
+__pycache__/
+data/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local databases, reports, and backups
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.backup
+*.bak
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Downloaded installers and archives
+*.tar
+*.tar.gz
+*.tar.xz
+*.zip
+
+# Local logs
+*.log
+
+# Local Python distribution files
+Python-*/
